@@ -205,7 +205,7 @@ section.infos div.infos-mestre div.infos-texto{
 section.infos div.infos-mestre div.infos-texto p{
         width: 95%;
         margin: auto;
-        color: #FFF;
+        color: #000;
         text-shadow: 2px 2px 5px solid #000;
         font-size: max(16px, 1vw);
 }    
@@ -232,4 +232,12 @@ div.footer {
   
   div.footer a:hover {
     text-decoration: underline;
+  }
+  footer a#contato{
+    width: 95%;
+    margin: auto;
+    color: #000;
+    text-shadow: 2px 2px 5px solid #000;
+    font-size: max(16px, 1vw);
+    cursor: default;
   }

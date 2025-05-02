@@ -30,9 +30,9 @@
                 <li id="menuX"><ion-icon name="close-outline"></ion-icon></li>
             </ul>
             <ul class="menu-principal">
-                <li><a href="#">Cadastro</a></li>
+                <li><a href="cadastro\signUp.html">Cadastro</a></li>
                 <li><a href="cadastro\login.html">Login</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#" onclick="rollDown()">Contato</a></li>
             </ul>
         </nav>
         <div class="chamada">
@@ -100,6 +100,7 @@
     </main>
 
     <footer class="footer">
+        <a id="contato">Seção de Contato</a>
         <div class="contato">
             <p>&copy; 2025 Grupo Aster INC. Todos os direitos reservados.</p>
     <p>Contato: <a href="mailto:contato@seudominio.com">contato@seudominio.com</a></p>
@@ -117,6 +118,14 @@
     <script scr="bootstrap-3.4.1-dist\js\bootstrap.min.js"></script>
     <script src="scripts\script.js"></script>
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script>
+        function rollDown(){
+            const contato = document.getElementById("contato");
+            if(contato) {
+                contato.scrollIntoView({ behavior: "smooth"});
+            }
+        }
+    </script>
 </body>
 
 </html>
