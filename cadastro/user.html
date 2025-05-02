@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interface de Usuário</title>
+  <link rel="stylesheet" href="user.css" />
+</head>
+<body>
+
+  <div class="user-card">
+    <div class="profile-photo">
+      <img src="/images/user.jpg" alt="Foto do usuário" />
+    </div>
+    <h2 class="username">Nome do Usuário</h2>
+    <div class="actions">
+        <form onsubmit="entrar(event)">
+            <button type="submit">Instituições</button>
+          </form>
+    </div>
+</div>
+<script>
+    function entrar(event) {
+      event.preventDefault();
+      window.location.href = "empresa.html"; // redireciona para a página do usuário
+    }
+  </script>
+</body>
+</html>
