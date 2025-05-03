@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(rgba(128, 173, 191, 1) 0%, rgba(169, 212, 217, 1) 10%, rgba(46, 89, 53, 1) 50%, rgba(0, 0, 0)100%);
-    margin: 0;
+    margin-bottom: 309px;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -11,7 +11,7 @@ body {
   
   .container {
     background: #fff;
-    padding: 2rem;
+    padding: 8rem;
     border-radius: 8px;
     width: 400px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -31,14 +31,15 @@ body {
   }
   
   button {
-    padding: 0.6rem;
-    width: 100%;
+    padding: 1rem;
+    width: 105%;
     background-color: #28a745;
     color: white;
     border: none;
     border-radius: 5px;
     margin-top: 0.5rem;
     cursor: pointer;
+    margin-top: 50px
   }
   
   button:hover {
